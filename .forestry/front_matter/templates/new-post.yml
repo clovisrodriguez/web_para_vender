@@ -18,3 +18,10 @@ fields:
   - 'desarrollo web '
   - comida
   - hola
+- type: datetime
+  label: date
+  name: data
+  description: current date
+  config:
+    date_format: YYYY/MM/DD
+    display_utc: false
