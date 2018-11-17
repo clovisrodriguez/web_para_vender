@@ -18,3 +18,5 @@ fields:
   - 'desarrollo web '
   - comida
   - hola
+pages:
+- content/test-page.md
