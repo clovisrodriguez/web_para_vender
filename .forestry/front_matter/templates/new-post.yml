@@ -9,7 +9,12 @@ fields:
   description: enter a new title to your post
   config:
     required: true
+  default: Test post
 - type: tag_list
   name: tags
   label: tags
   description: related tags to your new blog entry
+  default:
+  - 'desarrollo web '
+  - comida
+  - hola
