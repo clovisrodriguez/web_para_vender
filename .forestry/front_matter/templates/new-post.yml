@@ -1,0 +1,22 @@
+---
+label: New Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: enter a new title to your post
+  config:
+    required: true
+  default: Test post
+- type: tag_list
+  name: tags
+  label: tags
+  description: related tags to your new blog entry
+  default:
+  - 'desarrollo web '
+  - comida
+  - hola
+pages:
+- content/test-page.md
