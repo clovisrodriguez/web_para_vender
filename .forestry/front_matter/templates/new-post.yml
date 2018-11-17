@@ -10,14 +10,6 @@ fields:
   config:
     required: true
   default: Test post
-- type: tag_list
-  name: tags
-  label: tags
-  description: related tags to your new blog entry
-  default:
-  - 'desarrollo web '
-  - comida
-  - hola
 - type: datetime
   label: date
   name: data
@@ -25,3 +17,25 @@ fields:
   config:
     date_format: YYYY/MM/DD
     display_utc: false
+- type: tag_list
+  name: tags
+  label: tags
+  description: related tags to your new blog entry
+  default: []
+- type: text
+  name: linktitle
+  label: linktitle
+  description: same as your title
+  config:
+    required: true
+- type: list
+  name: next
+  label: next
+  hidden: false
+  description: next item in the page
+  config:
+    use_select: true
+    source:
+      type: pages
+    max: '1'
+    min: '1'
