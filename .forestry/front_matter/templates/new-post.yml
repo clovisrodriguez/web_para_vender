@@ -39,3 +39,5 @@ fields:
       type: pages
     max: '1'
     min: '1'
+pages:
+- content/post/my-new-brand-post.md
